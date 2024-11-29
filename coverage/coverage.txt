@@ -1,0 +1,3 @@
+if you want to test coverage:
+
+npx jest --coverage

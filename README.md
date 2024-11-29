@@ -1,6 +1,11 @@
 # NewsPaperCorp
 Newsagent Management System Documentation
+
+
 This document provides information about the Newsagent Management System. The system manages customers, areas, orders, invoices, publications, delivery dockets, and warning letters. It leverages a MySQL database for storage and have validation and CRUD (Create, Read, Update, Delete) operations for each entity.
+
+
+
 Customer
 Purpose: Manages customer information.
 Fields:
@@ -18,6 +23,8 @@ Validation:
 - Area ID must be a positive number.
 Example Usage:
 const customer = new Customer(null, "John Doe", "123 Main St", "5551234", 1, "john@example.com", "2024-01-01", "active");
+
+
 Area
 Purpose: Represents a geographical area where services are provided.
 Fields:
@@ -27,6 +34,9 @@ Validation:
 - Area name must be between 2 and 50 characters.
 Example Usage:
 const area = new Area(null, "Downtown");
+
+
+
 Order
 Purpose: Tracks orders placed by customers.
 Fields:
@@ -42,6 +52,10 @@ Validation:
 - Status must be one of the allowed values.
 Example Usage:
 const order = new Order(null, 1, 1, 1, "2024-12-01", "pending");
+
+
+
+
 Invoice
 Purpose: Manages customer invoices.
 Fields:
@@ -58,6 +72,10 @@ Validation:
 - Payment status must be one of the allowed values.
 Example Usage:
 const invoice = new Invoice(null, 1, "2024-11-01", "2024-12-01", 100.50, "unpaid", [{ item: "Newspaper", amount: 5 }]);
+
+
+
+
 Publication
 Purpose: Manages newspaper publications.
 Fields:
@@ -71,6 +89,9 @@ Validation:
 - Price must be a number between 0 and 1000.
 Example Usage:
 const publication = new Publication("The Daily News", "daily", 5.00);
+
+
+
 Delivery Docket
 Purpose: Tracks delivery details.
 Fields:
@@ -83,6 +104,9 @@ Validation:
 - Delivery person must be a non-empty string.
 Example Usage:
 const docket = new DeliveryDocket(null, 1, "John Smith", [{ order_id: 1, status: "pending" }]);
+
+
+
 Warning Letter
 Purpose: Issues warning letters to customers.
 Fields:
@@ -98,6 +122,9 @@ Validation:
 - Message must be a non-empty string.
 Example Usage:
 const warningLetter = new WarningLetter(1, "2024-11-07", "warning", "Late payment warning");
+
+
+
 Database Access
 Handles CRUD operations for all entities. Provides flexible methods to manage data in the database while ensuring data integrity.
 Key Methods:

@@ -1,0 +1,52 @@
+Phase 1: Understanding Requirements & Planning
+Duration: 1 Week
+Goal: Understand what the project needs to do and create a clear plan.
+Deliverables: A list of tasks (Product Backlog) organized by priority.
+
+We’ll work together to figure out what the system needs. This will be turned into a list of tasks (user stories) that are easy to follow. The most important tasks will go to the top of the list so we know where to start.
+
+Phase 2: Build the Basics
+Duration: 3 Weeks
+Goal: Create the main features of the system.
+Deliverables: Working parts of the system, fully tested and ready to use.
+
+At the start of each week (Sprint Planning), we’ll decide what to work on. The team will pick a few tasks from the top of the list and complete them by the end of the sprint. Everything we finish will be tested to make sure it works.
+
+Phase 3: Add More Features and Test Everything
+Duration: 3 Weeks
+Goal: Build extra features, fix bugs, and improve the system.
+Deliverables: Additional features and detailed testing reports.
+
+We’ll continue building new features each week while testing everything we’ve done so far. Feedback will help us fix or improve the system as we go.
+
+Phase 4: Final Touches and Delivery
+Duration: 2 Weeks
+Goal: Finish testing, make the system look good, and get it ready for release.
+Deliverables: The final version of the product.
+
+The last sprints will focus on polishing the system, fixing any remaining issues, and improving the user interface. By the end, we’ll have a finished product ready to deliver.
+
+How We’ll Work
+Short Sprints: We’ll divide our work into 1-2 week blocks (sprints). Each sprint has a clear goal, helping us stay on track.
+
+Teamwork: During Sprint Planning, each person will pick tasks they are good at. If needed, we’ll pair up to support each other.
+
+Daily Check-ins: We’ll have short daily meetings (15 minutes max) to talk about progress, share problems, and adjust plans.
+
+Task Priorities
+We’ll organize our work by importance:
+
+Critical (Must-Have): Main system features like core methods, database setup, and tests.
+High (Should-Have): Extra features and improving the design.
+Medium (Nice-to-Have): Making the system faster or adding extra details.
+Low (Extras): Small improvements like UI polishing.
+Each sprint will focus on the most important tasks first.
+
+Dealing with Problems
+Flexibility: If something doesn’t go as planned, we can adjust tasks during each sprint to keep things moving.
+
+Feedback & Improvement: After every sprint, we’ll have two meetings:
+
+Sprint Review: Show what we’ve done and get feedback.
+Retrospective: Talk about what went well and what could be better for the next sprint.
+By doing this, we’ll stay organized and improve as a team.

@@ -1,0 +1,59 @@
+Owns a business in Athlone
+I have divided Athlone into 24 separate areas	(ability to add more)
+1 delivery person per area
+Each delivery area contains a collection of customers
+Sorted by housing together
+
+Up at 4
+For each delivery area I have a customer book contains a list of customers for each delivery area
+Associated with each delivery area - order book
+Customers place orders and are recorderd in the order book
+
+Customer a may say they want a certain newspaper at a certain time
+
+Another book - delivery book, for each delivery area I open the order book and iterate over and if there is a valid order for today I transfer it into the delivery book
+
+24 - delivery docket
+
+Every time a change happens its reflected in the system
+
+Each delivery person - their delivery docket
+
+Each delivery person takes their docket and fills up their bag according to the delivery docket
+
+As they deliver they mark the delivery successful or not
+
+At the end of each month I have to create an invoice for each customer
+To generate I have to go over each docket to see how many successful deliveries
+
+
+1-2 of the month the invoices are sent by the delivery drivers
+
+They have to pay within 30 days
+
+Not pay month
+
+1 month invoice
+2 month invoice+ reminder
+3 month invoice+ suspend delivery
+
+A customer can come in and say they will be absent and that is marked in the order book
+
+Geo stuff later
+
+Customer : number name address area phone email subscription type last payment date? CRUD create a user story for each element of crud. As a newsAgent I want to create a customer account so that I can grow my bussiness
+
+
+
+Delivery : number date newspaper customer number successful or not
+Area:
+Del docket
+Newsagent
+Del person
+Storage room
+Invoices
+Warning letters
+Publication
+
+
+

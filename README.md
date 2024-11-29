@@ -136,4 +136,4 @@ Example Usage:
 const db = new MySQLAccess();
 await db.connectToDatabase();
 await db.createRecord("customers", ["name", "address"], ["John Doe", "123 Main St"]);
-![image](https://github.com/user-attachments/assets/cd93a958-8ee9-41bb-9285-63c77b2fe79f)
+
